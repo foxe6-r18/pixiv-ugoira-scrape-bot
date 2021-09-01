@@ -11,7 +11,7 @@ test.py crawl
 
 ## downloader
 
-job: download ugoira metadata and zips, convert them into gifs
+job: download ugoira metadata and zips, convert them into OPTIMIZED gifs
 ```python
 test.py service
 ```
