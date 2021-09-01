@@ -1,6 +1,11 @@
 # pixiv-ugoira-scrape-bot
 
-warning: massive data involved
+warning: massive data involved  
+prerequisites:  
+- pixivpy
+- pillow
+- sqlq
+- threadwrapper
 
 ## crawler
 
