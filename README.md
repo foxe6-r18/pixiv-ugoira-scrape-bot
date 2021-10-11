@@ -30,7 +30,7 @@ test.py download
 
 ## cache
 
-job: cache ugoira gifs paths for cgi
+job: cache ugoira gifs paths, sizes, illust id, artist id for cgi
 ```python
 test.py cache
 ```
