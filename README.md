@@ -2,7 +2,8 @@
 
 warning: massive data involved  
 prerequisites:  
-```pixivpy
+```
+pixivpy
 pillow
 sqlq
 threadwrapper
