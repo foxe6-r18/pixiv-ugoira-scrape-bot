@@ -2,10 +2,16 @@
 
 warning: massive data involved  
 prerequisites:  
-- pixivpy
-- pillow
-- sqlq
-- threadwrapper
+```pixivpy
+pillow
+sqlq
+threadwrapper
+```
+for index.py cgi:
+```
+pythoncgi
+omnitools
+```
 
 ## crawler
 
@@ -18,7 +24,14 @@ test.py crawl
 
 job: download ugoira metadata and zips, convert them into OPTIMIZED gifs
 ```python
-test.py service
+test.py download
+```
+
+## cache
+
+job: cache ugoira gifs paths for cgi
+```python
+test.py cache
 ```
 
 # notes on execution
