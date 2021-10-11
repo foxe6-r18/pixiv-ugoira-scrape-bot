@@ -16,7 +16,7 @@ import omnitools
 
 
 test = not True
-save_dir = "/home/su/Desktop/R34H/pixiv/ugoira"
+save_dir = "ugoira"
 print(save_dir, flush=True)
 tokens = json.loads(open(os.path.join(save_dir, "..", "auth.json"), "rb").read().decode())
 rotation_key = len(tokens)-1
